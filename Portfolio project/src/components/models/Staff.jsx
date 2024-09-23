@@ -64,4 +64,4 @@ export default function Staff(props) {
 useGLTF.preload('/models/staff-transformed.glb')
 
 
-/* Stopped at - 1:36:58 */ 
+/* Stopped at - 1:36:58 - npm run dev */ 
