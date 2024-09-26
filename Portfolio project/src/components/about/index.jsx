@@ -35,7 +35,7 @@ const AboutDetails = () => {
                 </ItemLayout>
 
                 <ItemLayout className={'col-span-8 !p-0'}>
-                    <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=S-Lencovsky&theme=transparent&hide_border=true&title_color=fefe5b&text_color=ffffff&icon_color=fefe5b&text_bold=false' alt='S-Lencovsky' loading='lazy'/>  
+                    <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=S-Lencovsky&theme=transparent&hide_border=true&title_color=fefe5b&text_color=ffffff&icon_color=fefe5b&text_bold=false&show_icon=true' alt='S-Lencovsky' loading='lazy'/>  
                 </ItemLayout>
 
                 <ItemLayout className={'col-span-full'}>
@@ -46,12 +46,10 @@ const AboutDetails = () => {
                 <img className='w-full h-auto' src="https://github-readme-streak-stats.herokuapp.com?user=S-Lencovsky&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="S-Lencovsky" loading="lazy"/>  
                 </ItemLayout>
 
-                {/*
-                stopped at - 2:12:34 - npm run dev
-
                 <ItemLayout className={'col-span-6 !p-0'}>
-                <img className='w-full h-auto' src="https://github-readme-streak-stats.herokuapp.com?user=S-Lencovsky&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="S-Lencovsky" loading="lazy"/>  
-                </ItemLayout>*/ }
+                <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/pin/?username=S-Lencovsky&repo=Projects&theme=transparent&hide_border=true&title_color=fefe5b&text_color=ffffff&icon_color=fefe5b&text_bold=false&description_lines_count=3" alt="S-Lencovsky" loading="lazy"/>  
+                </ItemLayout>
+
 
                 
             </div>
