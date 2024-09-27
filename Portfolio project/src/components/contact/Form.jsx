@@ -10,7 +10,7 @@ export default function Form() {
 
   const sendEmail = (params) => {
     
-
+    const toastid = toast.loading('Sending your message, please wait...')
     emailjs
       .send(
         process.env.NEXT_PUBLIC_SERVICE_ID,
@@ -25,10 +25,10 @@ export default function Form() {
       )
       .then(
         () => {
-          console.log("SUCCESS!");
+          toast.success('Message sent successfully! I will get back to you shortly!', {id: toastid})
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          toast.error('Something went wrong, please try again', {id: toastid})
         }
       );
   };
@@ -47,7 +47,7 @@ export default function Form() {
   
   return (
     <>
-    <Toaster />
+    <Toaster richColors={true} />
     <form
       onSubmit={handleSubmit(onSubmit)}
       className="max-w-md w-full flex flex-col items-center justify-center space-y-4"
@@ -100,5 +100,3 @@ export default function Form() {
     </>
   );
 }
-
-{/* Stopped at -  2:41:45 - npm run dev - Sooner popup */}

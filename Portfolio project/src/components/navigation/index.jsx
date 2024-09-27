@@ -5,6 +5,7 @@ import NavButton from "./NavButton";
 
 const Navigation = () => {
   const angleIncrement = 360 / BtnList.length;
+  
 
   return (
     <div className="w-full fixed h-screen flex items-center justify-center">
@@ -24,3 +25,5 @@ const Navigation = () => {
 };
 
 export default Navigation;
+
+{/* Stopped at 2:51:28 - npm run dev - adding hooks */}
