@@ -14,7 +14,7 @@ export default function Home() {
         className=" -z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-25"
       />
       
-      <div className="w-full h-screen absolute top-1/2 -translate-y-1/2 left-0">
+      <div className="w-full h-3/5 xs:h-3/4 sm:h-screen absolute top-1/2 -translate-y-1/2 left-0">
       <RenderModel>
         <HatModel/>
       </RenderModel>
@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2">
-        <h1 className="font-bold text-9xl text-accent">Shai</h1>
+        <h1 className="font-bold text-6xl xs:text-7xl sm:text-8xl lg:text-9xl text-accent">Shai</h1>
         <p className="font-light text-lg text-foreground">Meet the megican behind this portfolio</p>
       </div>
       </div>
@@ -33,3 +33,5 @@ export default function Home() {
   );
 
 }
+
+{/* Stopped at 3:05:29 - added padding to hat class */}
