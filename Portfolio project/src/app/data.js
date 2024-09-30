@@ -19,33 +19,33 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
-    date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    name: "Movie Chooser WebApp",
+    description: "A responsive web application that allows users to discover, search, and explore movies. It provides information such as movie titles, descriptions, release dates, ratings, and more. The app integrates with a third-party API to deliver up-to-date movie data, offering users an intuitive and engaging experience.",
+    date: "2024-06-18",
+    demoLink: "https://MovieChooser.example.com",
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
+    name: "Boss Machine",
+    description: "A Node.js-based API project built using Express.js. It simulates a management system for a fictional boss and their team of minions. The API allows CRUD operations (Create, Read, Update, Delete) for managing minions, work assignments, and idea submissions.",
     date: "2022-06-20",
     demoLink: "https://artgalleryonline.example.com",
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
+    name: "Find The Hat",
+    description: "A console-based game developed in JavaScript where the player navigates through a grid to find and retrieve a hidden hat. The game challenges users to avoid obstacles as they make their way through the grid while trying not to fall into pits.",
     date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
+    demoLink: "https://FindTheHat.example.com",
   },
   {
     id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
+    name: "Mixed Messages",
+    description: "A JavaScript-based random message generator that delivers unique, humorous, or insightful combinations of phrases every time it's run. This project showcases the use of arrays, randomization, and basic logic to create entertaining outputs.",
     date: "2022-05-30",
     demoLink: "https://healthbeat.example.com",
   },
-  {
+  /*{
     id: 5,
     name: "RecipeFinder",
     description: "Discover new recipes",
@@ -86,7 +86,7 @@ export const projectsData = [
     description: "Meditation and mindfulness app",
     date: "2022-02-14",
     demoLink: "https://mindfulmoments.example.com",
-  },
+  },*/
 ];
 
 export const BtnList = [
@@ -96,25 +96,25 @@ export const BtnList = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://www.github.com/codebucks27",
+    link: "https://www.github.com/S-Lencovsky",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/shai-lencovsky",
     icon: "linkedin",
     newTab: true,
   },
   {
     label: "X",
-    link: "https://www.x.com/code_bucks",
+    link: "https://www.x.com/SLencovsky",
     icon: "twitter",
     newTab: true,
   },
   {
     label: "Resume",
-    link: "/resume.pdf",
+    link: "/Shai Lencovsky-Stewart- SDE.pdf",
     icon: "resume",
     newTab: true,
   },
