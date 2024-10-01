@@ -26,9 +26,10 @@ export default function Home() {
       </div>
 
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
-        <div className="absolute flex flex-col items-center text-center top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <div className="absolute flex flex-col items-center text-center top-[70%] left-1/2 -translate-x-1/2 -translate-y-1/2">
         <h1 className="font-bold text-6xl xs:text-7xl sm:text-8xl lg:text-9xl text-accent">Shai</h1>
-        <p className="font-light text-lg text-foreground">Meet the megican behind this portfolio</p>
+        <p className="font-light text-lg text-foreground">Step into the enchanted realm and discover the magician behind this portfolio!
+        </p>
       </div>
       </div>
     

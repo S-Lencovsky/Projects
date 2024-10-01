@@ -19,7 +19,7 @@ export default function Contact() {
         <div className="flex flex-col items-center justify-center space-y-6 w-full sm:w-3/4">
           <h1 className="text-5xl text-accent font-semibold text-center text-4xl capitalize">
             Contact</h1>
-          <p className="text-center font-light text-sm xs:text-base">Embark on a journey of connection! By filling out the form below, you’ll send a message through the mystical ether, allowing your thoughts to reach me. Let’s weave our stories together and create something truly enchanting!</p>
+          <p className="text-center font-light text-sm xs:text-base py-2 ">Embark on a journey of connection! By filling out the form below, you’ll send a message through the mystical ether, allowing your thoughts to reach me. Let’s weave our stories together and create something truly enchanting!</p>
         </div>
         <Form/>
       </article>
